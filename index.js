@@ -1,3 +1,4 @@
+const keep_alive = require(`./keep_alive.js`):
 const { Client, GatewayIntentBits, ActionRowBuilder, ButtonBuilder, ButtonStyle } = require('discord.js');
 const dotenv = require('dotenv');
 dotenv.config();
